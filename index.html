@@ -253,32 +253,33 @@
             <div class="project-visual">
               <div class="pv-bar"><span>job-portal · spring boot 3</span><span>fig. 03</span></div>
               <div class="pv-canvas">
-              <svg viewBox="0 14 300 172" role="img" aria-label="Architecture: Recruiters and candidates sign in through Spring Security, which routes to Spring MVC with JPA; pages render with Thymeleaf and data persists in MySQL.">
-                <path class="d-edge" d="M82 50C96 50 92 100 104 100"/>
-                <path class="d-edge" d="M82 150C96 150 92 100 104 100"/>
-                <path class="d-edge hot" d="M200 100H222"/>
-                <path class="d-edge hot" d="M258 84V52"/>
-                <path class="d-edge hot" d="M258 116V148"/>
-                <g class="d-node"><rect x="6" y="34" width="76" height="32" rx="9"/><text x="44" y="50">Recruiter</text></g>
-                <g class="d-node"><rect x="6" y="134" width="76" height="32" rx="9"/><text x="44" y="150">Candidate</text></g>
-                <g class="d-node hl"><rect x="104" y="84" width="96" height="32" rx="9"/><text x="152" y="100">Spring Security</text></g>
-                <g class="d-node"><rect x="222" y="20" width="72" height="32" rx="9"/><text x="258" y="36">Thymeleaf</text></g>
-                <g class="d-node"><rect x="222" y="84" width="72" height="32" rx="9"/><text x="258" y="100">MVC · JPA</text></g>
-                <g class="d-node"><rect x="222" y="148" width="72" height="32" rx="9"/><text x="258" y="164">MySQL</text></g>
+              <svg viewBox="0 4 300 162" role="img" aria-label="Architecture: recruiters and job seekers sign in through Spring Security with BCrypt; recruiters post jobs and review applicants, job seekers search, apply and save jobs; everything runs on Spring MVC with Thymeleaf and Spring Data JPA over MySQL.">
+                <path class="d-edge" d="M86 26H100"/>
+                <path class="d-edge" d="M200 26H214"/>
+                <path class="d-edge hot" d="M150 42V58M39 58H262M39 58V76M111 58V76M187 58V76M262 58V76"/>
+                <path class="d-edge lime" d="M39 108V132M111 108V132M187 108V132M262 108V132"/>
+                <g class="d-node"><rect x="6" y="10" width="80" height="32" rx="9"/><text x="46" y="26">Recruiter</text></g>
+                <g class="d-node hl"><rect x="100" y="10" width="100" height="32" rx="9"/><text x="150" y="26">Spring Security</text></g>
+                <g class="d-node"><rect x="214" y="10" width="80" height="32" rx="9"/><text x="254" y="26">Job Seeker</text></g>
+                <g class="d-node"><rect x="6" y="76" width="66" height="32" rx="9"/><text x="39" y="92">Post jobs</text></g>
+                <g class="d-node"><rect x="78" y="76" width="66" height="32" rx="9"/><text x="111" y="92">Applicants</text></g>
+                <g class="d-node"><rect x="150" y="76" width="74" height="32" rx="9"/><text x="187" y="92">Search · Apply</text></g>
+                <g class="d-node"><rect x="230" y="76" width="64" height="32" rx="9"/><text x="262" y="92">Save jobs</text></g>
+                <g class="d-node lime"><rect x="6" y="132" width="288" height="28" rx="9"/><text x="150" y="146">Spring MVC · Thymeleaf · JPA · MySQL</text></g>
               </svg>
               </div>
-              <div class="pv-bar pv-foot"><span>role-based access control</span></div>
+              <div class="pv-bar pv-foot"><span>role-based access · Docker · Render</span></div>
             </div>
             <div class="project-body">
               <div class="project-meta"><span class="tag">Full Stack</span></div>
               <h3>Job Portal Web Application</h3>
-              <p class="project-sub">Hiring platform for recruiters and candidates</p>
+              <p class="project-sub">Hiring platform connecting recruiters and job seekers</p>
               <ul class="points">
-                <li>Recruiters post and manage jobs; candidates search, apply, save jobs, upload résumés and maintain profiles.</li>
-                <li>Role-based authentication, with Spring MVC and Data JPA for backend logic and persistence.</li>
+                <li>Recruiters post and edit jobs with rich-text descriptions, see applicant counts per listing and download candidates' résumés. Job seekers build profiles with skills, photo and résumé, filter jobs by title, location, type, remote policy and date, then apply or save them for later.</li>
+                <li>Role-based login with Spring Security and BCrypt, Spring MVC and Data JPA over MySQL, and server-rendered Thymeleaf pages. Dockerised and live on Render with one-click demo accounts for both roles.</li>
               </ul>
               <ul class="chips" aria-label="Technologies">
-                <li>Spring Boot 3</li><li>Thymeleaf</li><li>MySQL</li><li>Spring Security</li><li>Spring Data JPA</li>
+                <li>Java 21</li><li>Spring Boot 3</li><li>Spring Security</li><li>Spring Data JPA</li><li>Thymeleaf</li><li>MySQL</li><li>Docker</li>
               </ul>
               <div class="project-links">
                 <a class="btn btn-primary" href="https://shibani-job-portal.onrender.com/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
