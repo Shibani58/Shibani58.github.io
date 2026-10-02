@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shibani Purbey — Full Stack Software Developer (Java · Spring Boot + Angular)</title>
+  <meta name="description" content="Shibani Purbey is a full stack software developer specialising in Java, Spring Boot and Angular, with 4 years of experience building high-performance web applications on AWS.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#151312">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shibani Purbey — Full Stack Software Developer">
+  <meta property="og:description" content="Java · Spring Boot + Angular. 4 years building high-performance web applications on AWS.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
+      <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-server" viewBox="0 0 24 24"><rect width="20" height="8" x="2" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6 6h.01M6 18h.01"/></symbol>
+      <symbol id="i-layout" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+      <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2M14 2v2M6 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Floating section dock -->
+  <nav class="dock" aria-label="Sections">
+    <a href="#home" data-label="Home" aria-label="Home"><svg class="icon"><use href="#i-home"/></svg></a>
+    <a href="#projects" data-label="Projects" aria-label="Projects"><svg class="icon"><use href="#i-folder"/></svg></a>
+    <a href="#experience" data-label="Experience" aria-label="Experience"><svg class="icon"><use href="#i-briefcase"/></svg></a>
+    <a href="#stack" data-label="Tech stack" aria-label="Tech stack"><svg class="icon"><use href="#i-code"/></svg></a>
+    <a href="#achievements" data-label="Achievements" aria-label="Achievements"><svg class="icon"><use href="#i-trophy"/></svg></a>
+    <a href="#contact" data-label="Contact" aria-label="Contact"><svg class="icon"><use href="#i-mail"/></svg></a>
+  </nav>
+
+  <div class="layout">
+    <!-- Sticky profile card -->
+    <aside class="profile" aria-label="Profile">
+      <div class="profile-card" data-tilt>
+        <svg class="arc arc-top" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96"/></svg>
+        <svg class="arc arc-side" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96"/></svg>
+        <span class="badge-java" aria-hidden="true"><svg class="icon"><use href="#i-coffee"/></svg></span>
+
+        <div class="avatar">
+          <span class="avatar-initials" aria-hidden="true">SP</span>
+          <span class="avatar-glyph" aria-hidden="true">&lt;/&gt;</span>
+          <!-- Drop a photo at assets/profile.jpg and it replaces the initials automatically. -->
+          <img src="assets/profile.jpg" alt="Portrait of Shibani Purbey" width="440" height="500" onerror="this.remove()">
+        </div>
+
+        <p class="profile-name">Shibani Purbey</p>
+        <p class="profile-role">Full Stack Software Developer<br><span>Java · Spring Boot + Angular</span></p>
+        <p class="profile-loc"><svg class="icon"><use href="#i-pin"/></svg> Bangalore, India</p>
+
+        <ul class="socials">
+          <li><a href="https://github.com/Shibani58" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/shibani-purbey/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="mailto:shibanipurbey@gmail.com" aria-label="Email"><svg class="icon"><use href="#i-mail"/></svg></a></li>
+        </ul>
+
+        <a class="btn btn-ink" href="assets/Shibani_Purbey_Resume.pdf" download>
+          <svg class="icon"><use href="#i-download"/></svg> Download résumé
+        </a>
+      </div>
+    </aside>
+
+    <main id="main">
+      <!-- ============ HOME ============ -->
+      <section id="home" class="section hero" aria-labelledby="hero-title">
+        <p class="now-pill reveal"><span class="pulse" aria-hidden="true"></span> Software Engineer II at Caterpillar</p>
+
+        <h1 id="hero-title" class="display reveal">
+          <span class="sr-only">Shibani Purbey, </span>
+          <span>Full Stack</span>
+          <span class="dim">Developer</span>
+        </h1>
+
+        <p class="lede reveal">
+          Results-driven software engineer with <strong>4 years</strong> of experience designing and shipping
+          high-performance web applications with <strong>Java, Spring Boot, Angular and AWS</strong>. I've built payment
+          orchestration for a platform processing $15M+ in daily sales, led a team of six through three production
+          go-lives, and engineered systems that delivered $30M in business value.
+        </p>
+
+        <dl class="stats reveal">
+          <div class="stat"><dt>Years of experience</dt><dd><span data-count="4">4</span></dd></div>
+          <div class="stat"><dt>Delivered in benefits</dt><dd><span data-count="30" data-prefix="$" data-suffix="M">$30M</span></dd></div>
+          <div class="stat"><dt>Field engineers served</dt><dd><span data-count="8" data-suffix="K">8K</span></dd></div>
+          <div class="stat"><dt>Production go-lives led</dt><dd><span data-count="3">3</span></dd></div>
+        </dl>
+
+        <div class="focus reveal">
+          <article class="focus-card orange">
+            <span class="focus-icon"><svg class="icon"><use href="#i-server"/></svg></span>
+            <div>
+              <h2>Backend &amp; APIs</h2>
+              <p>Spring Boot microservices, REST APIs, Kafka &amp; RabbitMQ, secured with OAuth&nbsp;2.0 and JWT.</p>
+            </div>
+            <svg class="focus-bg" aria-hidden="true"><use href="#i-server"/></svg>
+          </article>
+          <article class="focus-card lime">
+            <span class="focus-icon"><svg class="icon"><use href="#i-layout"/></svg></span>
+            <div>
+              <h2>Frontend &amp; Cloud</h2>
+              <p>Angular apps and offline-first PWAs, shipped on AWS with Docker, Jenkins and GitHub Actions.</p>
+            </div>
+            <svg class="focus-bg" aria-hidden="true"><use href="#i-layout"/></svg>
+          </article>
+        </div>
+
+        <!-- Interactive "API" console -->
+        <div class="console reveal" aria-label="Interactive API console about Shibani">
+          <div class="console-bar">
+            <span class="console-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="console-title">shibani-api · Spring Boot 3</span>
+          </div>
+          <div class="console-endpoints" role="group" aria-label="Choose an endpoint">
+            <button class="endpoint" type="button" data-endpoint="profile" aria-pressed="true"><span class="verb">GET</span>/api/v1/shibani/profile</button>
+            <button class="endpoint" type="button" data-endpoint="stack" aria-pressed="false"><span class="verb">GET</span>/stack</button>
+            <button class="endpoint" type="button" data-endpoint="impact" aria-pressed="false"><span class="verb">GET</span>/impact</button>
+          </div>
+          <p class="console-status" id="console-status"><span class="ok">200 OK</span> · application/json</p>
+          <pre class="console-out" id="console-out" tabindex="0">{
+  "name": "Shibani Purbey",
+  "role": "Full Stack Software Developer",
+  "stack": ["Java", "Spring Boot", "Angular", "AWS"]
+}</pre>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Java</span><span class="fill">✦</span><span>Spring Boot</span><span class="fill">✦</span><span>Angular</span><span class="fill">✦</span><span>AWS</span><span class="fill">✦</span><span>Microservices</span><span class="fill">✦</span><span>Kafka</span><span class="fill">✦</span>
+          <span>Java</span><span class="fill">✦</span><span>Spring Boot</span><span class="fill">✦</span><span>Angular</span><span class="fill">✦</span><span>AWS</span><span class="fill">✦</span><span>Microservices</span><span class="fill">✦</span><span>Kafka</span><span class="fill">✦</span>
+        </div>
+      </div>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <h2 id="projects-title" class="display-2 reveal"><span>Featured</span><span class="dim">Projects</span></h2>
+        <p class="section-intro reveal">From serverless GenAI to event-driven microservices, with a quick look at how each one fits together.</p>
+
+        <div class="projects">
+          <!-- Athena Onboard -->
+          <article class="project reveal" data-spotlight>
+            <div class="project-visual">
+              <div class="pv-bar"><span>λ athena-onboard</span><span>fig. 01</span></div>
+              <div class="pv-canvas">
+              <svg viewBox="0 14 300 172" role="img" aria-label="Architecture: HR team calls API Gateway, which triggers Lambda; Lambda calls Amazon Bedrock, stores data in DynamoDB and sends email through SES.">
+                <path class="d-edge" d="M60 100H76"/>
+                <path class="d-edge" d="M138 100H156"/>
+                <path class="d-edge hot" d="M216 100H234"/>
+                <path class="d-edge hot" d="M186 82C186 54 198 38 226 38"/>
+                <path class="d-edge hot" d="M186 118C186 146 198 162 222 162"/>
+                <g class="d-node"><rect x="4" y="82" width="56" height="36" rx="9"/><text x="32" y="100">HR Team</text></g>
+                <g class="d-node"><rect x="76" y="82" width="62" height="36" rx="9"/><text x="107" y="100">API GW</text></g>
+                <g class="d-node hl"><rect x="156" y="82" width="60" height="36" rx="9"/><text x="186" y="100">Lambda</text></g>
+                <g class="d-node"><rect x="226" y="22" width="68" height="32" rx="9"/><text x="260" y="38">Bedrock</text></g>
+                <g class="d-node"><rect x="234" y="84" width="60" height="32" rx="9"/><text x="264" y="100">SES</text></g>
+                <g class="d-node"><rect x="222" y="146" width="72" height="32" rx="9"/><text x="258" y="162">DynamoDB</text></g>
+              </svg>
+              </div>
+              <div class="pv-bar pv-foot"><span>serverless · event-driven</span></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="tag">GenAI · Serverless</span></div>
+              <h3>Athena Onboard</h3>
+              <p class="project-sub">AI-powered HR onboarding automation</p>
+              <ul class="points">
+                <li>Serverless platform that auto-generates personalised training plans, with HR review, audit traceability and automated email delivery.</li>
+                <li><strong>12×–24× projected ROI</strong>: cuts manual HR effort by ~20% and enables $4–8M in annual savings.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>AWS Lambda</li><li>API Gateway</li><li>Amazon Bedrock (Titan)</li><li>S3</li><li>DynamoDB</li><li>SES</li><li>CloudWatch</li>
+              </ul>
+              <div class="project-links">
+                <!-- TODO: replace with the real live URL -->
+                <a class="btn btn-primary" href="https://shibani58.github.io/athena-onboard/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- E-commerce -->
+          <article class="project reveal" data-spotlight>
+            <div class="project-visual">
+              <div class="pv-bar"><span>e-commerce · microservices</span><span>fig. 02</span></div>
+              <div class="pv-canvas">
+              <svg viewBox="0 4 300 162" role="img" aria-label="Architecture: API Gateway with Auth Server and Eureka routes to Product, Order and Inventory services; Order and Inventory publish to a Kafka event bus that feeds the Notification service.">
+                <path class="d-edge" d="M84 26H104"/>
+                <path class="d-edge" d="M196 26H216"/>
+                <path class="d-edge" d="M150 42V58M40 58H181M40 58V76M110 58V76M181 58V76"/>
+                <path class="d-edge lime" d="M110 108V132"/>
+                <path class="d-edge lime" d="M181 108V132"/>
+                <path class="d-edge lime" d="M258 132V108"/>
+                <g class="d-node"><rect x="6" y="10" width="78" height="32" rx="9"/><text x="45" y="26">Auth Server</text></g>
+                <g class="d-node hl"><rect x="104" y="10" width="92" height="32" rx="9"/><text x="150" y="26">API Gateway</text></g>
+                <g class="d-node"><rect x="216" y="10" width="78" height="32" rx="9"/><text x="255" y="26">Eureka</text></g>
+                <g class="d-node"><rect x="6" y="76" width="68" height="32" rx="9"/><text x="40" y="92">Product</text></g>
+                <g class="d-node"><rect x="80" y="76" width="60" height="32" rx="9"/><text x="110" y="92">Order</text></g>
+                <g class="d-node"><rect x="146" y="76" width="70" height="32" rx="9"/><text x="181" y="92">Inventory</text></g>
+                <g class="d-node"><rect x="222" y="76" width="72" height="32" rx="9"/><text x="258" y="92">Notification</text></g>
+                <g class="d-node lime"><rect x="6" y="132" width="288" height="28" rx="9"/><text x="150" y="146">Kafka · event bus</text></g>
+              </svg>
+              </div>
+              <div class="pv-bar pv-foot"><span>MySQL · Elasticsearch · Zipkin · Config Server</span></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="tag">Microservices</span></div>
+              <h3>E-commerce Application</h3>
+              <p class="project-sub">Microservices online shopping platform</p>
+              <ul class="points">
+                <li>Online shopping platform with integrated product, order, notification and inventory services.</li>
+                <li>Synchronous and asynchronous communication, distributed tracing, centralised logging and an authorization server.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>Spring Boot</li><li>Auth Server</li><li>MySQL</li><li>Eureka</li><li>Config Server</li><li>Zipkin</li><li>Kafka</li><li>Elasticsearch</li>
+              </ul>
+              <div class="project-links">
+                <!-- TODO: replace with the real live URL -->
+                <a class="btn btn-primary" href="https://shibani58.github.io/E-Commerce-Application/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+                <a class="btn btn-ghost" href="https://github.com/Shibani58/E-Commerce-Application" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Job Portal -->
+          <article class="project reveal" data-spotlight>
+            <div class="project-visual">
+              <div class="pv-bar"><span>job-portal · spring boot 3</span><span>fig. 03</span></div>
+              <div class="pv-canvas">
+              <svg viewBox="0 14 300 172" role="img" aria-label="Architecture: Recruiters and candidates sign in through Spring Security, which routes to Spring MVC with JPA; pages render with Thymeleaf and data persists in MySQL.">
+                <path class="d-edge" d="M82 50C96 50 92 100 104 100"/>
+                <path class="d-edge" d="M82 150C96 150 92 100 104 100"/>
+                <path class="d-edge hot" d="M200 100H222"/>
+                <path class="d-edge hot" d="M258 84V52"/>
+                <path class="d-edge hot" d="M258 116V148"/>
+                <g class="d-node"><rect x="6" y="34" width="76" height="32" rx="9"/><text x="44" y="50">Recruiter</text></g>
+                <g class="d-node"><rect x="6" y="134" width="76" height="32" rx="9"/><text x="44" y="150">Candidate</text></g>
+                <g class="d-node hl"><rect x="104" y="84" width="96" height="32" rx="9"/><text x="152" y="100">Spring Security</text></g>
+                <g class="d-node"><rect x="222" y="20" width="72" height="32" rx="9"/><text x="258" y="36">Thymeleaf</text></g>
+                <g class="d-node"><rect x="222" y="84" width="72" height="32" rx="9"/><text x="258" y="100">MVC · JPA</text></g>
+                <g class="d-node"><rect x="222" y="148" width="72" height="32" rx="9"/><text x="258" y="164">MySQL</text></g>
+              </svg>
+              </div>
+              <div class="pv-bar pv-foot"><span>role-based access control</span></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="tag">Full Stack</span></div>
+              <h3>Job Portal Web Application</h3>
+              <p class="project-sub">Hiring platform for recruiters and candidates</p>
+              <ul class="points">
+                <li>Recruiters post and manage jobs; candidates search, apply, save jobs, upload résumés and maintain profiles.</li>
+                <li>Role-based authentication, with Spring MVC and Data JPA for backend logic and persistence.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>Spring Boot 3</li><li>Thymeleaf</li><li>MySQL</li><li>Spring Security</li><li>Spring Data JPA</li>
+              </ul>
+              <div class="project-links">
+                <!-- TODO: replace with the real live URL -->
+                <a class="btn btn-primary" href="https://shibani58.github.io/Job-Portal-Application/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+                <a class="btn btn-ghost" href="https://github.com/Shibani58/Job-Portal-Application" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <a class="more-link reveal" href="https://github.com/Shibani58?tab=repositories" target="_blank" rel="noopener">
+          More on GitHub <svg class="icon arrow"><use href="#i-arrow"/></svg>
+        </a>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience" class="section" aria-labelledby="experience-title">
+        <h2 id="experience-title" class="display-2 reveal"><span>4 Years of</span><span class="dim">Experience</span></h2>
+        <p class="section-intro reveal">Enterprise engineering across e-commerce, energy and industrial software, all in Bangalore.</p>
+
+        <div class="jobs">
+          <article class="job open reveal">
+            <h3 class="job-h">
+              <button class="job-head" type="button" aria-expanded="true" aria-controls="job-cat">
+                <span class="job-logo current">CAT</span>
+                <span class="job-title">
+                  <span class="job-co">Caterpillar Inc. <span class="now-tag">Now</span></span>
+                  <span class="job-role">Software Engineer II</span>
+                </span>
+                <span class="job-date">Aug 2026 — Present</span>
+                <svg class="icon job-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+            </h3>
+            <div class="job-body" id="job-cat">
+              <div>
+                <div class="job-inner">
+                  <ul class="metrics" aria-label="Highlights">
+                    <li><strong>$15M+</strong> daily sales on platform</li>
+                    <li><strong>End-to-end</strong> feature ownership</li>
+                  </ul>
+                  <ul class="points">
+                    <li>Developed the <strong>Quick Buy</strong> feature for Caterpillar's parts e-commerce platform (parts.cat.com), which processes over $15M in daily sales.</li>
+                    <li>Implemented <strong>payment orchestration</strong> for checkout: payment gateway integration, transaction-status handling, retry logic and refund workflows coordinated with order placement.</li>
+                    <li>Owned end-to-end feature enhancement across software architecture, microservice integration and cross-team collaboration.</li>
+                  </ul>
+                  <ul class="chips" aria-label="Focus areas"><li>E-commerce</li><li>Payments</li><li>Microservices</li><li>Java</li><li>Spring Boot</li></ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <h3 class="job-h">
+              <button class="job-head" type="button" aria-expanded="false" aria-controls="job-bh">
+                <span class="job-logo">BH</span>
+                <span class="job-title">
+                  <span class="job-co">Baker Hughes</span>
+                  <span class="job-role">Software Engineer · Technical Lead</span>
+                </span>
+                <span class="job-date">Oct 2024 — Aug 2026</span>
+                <svg class="icon job-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+            </h3>
+            <div class="job-body" id="job-bh">
+              <div>
+                <div class="job-inner">
+                  <ul class="metrics" aria-label="Highlights">
+                    <li><strong>6</strong> developers led</li>
+                    <li><strong>3</strong> production go-lives</li>
+                    <li><strong>~8K</strong> field engineers</li>
+                    <li><strong>80%</strong> reliability gain</li>
+                    <li><strong>~$38K</strong> costs avoided</li>
+                  </ul>
+                  <ul class="points">
+                    <li>Technical Lead for a team of 6 developers, driving day-to-day decisions and prioritisation, and delivering <strong>3 production go-lives</strong> through coordinated deployments and post-release stability.</li>
+                    <li>Developed and deployed Spring Boot microservices on <strong>AWS ECS</strong> for an offline-first PWA used by ~8K Field Service Engineers, and resolved 100+ critical security issues.</li>
+                    <li>Improved application reliability by <strong>80%</strong> through strategic debugging, JUnit/Mockito test suites and robust error handling.</li>
+                    <li>Mentored interns through Angular and Java upgrades, avoiding ~$38K in obsolescence remediation costs.</li>
+                  </ul>
+                  <ul class="chips" aria-label="Technologies"><li>Spring Boot</li><li>AWS ECS</li><li>Angular</li><li>PWA</li><li>JUnit</li><li>Mockito</li></ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <h3 class="job-h">
+              <button class="job-head" type="button" aria-expanded="false" aria-controls="job-ge">
+                <span class="job-logo">GE</span>
+                <span class="job-title">
+                  <span class="job-co">General Electric — GE Vernova</span>
+                  <span class="job-role">Software Engineering Specialist</span>
+                </span>
+                <span class="job-date">Jan 2023 — Sep 2024</span>
+                <svg class="icon job-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+            </h3>
+            <div class="job-body" id="job-ge">
+              <div>
+                <div class="job-inner">
+                  <ul class="metrics" aria-label="Highlights">
+                    <li><strong>$30M</strong> benefits delivered</li>
+                    <li><strong>+20%</strong> performance</li>
+                    <li><strong>85%</strong> code coverage</li>
+                  </ul>
+                  <ul class="points">
+                    <li>Spearheaded a <strong>scheduling algorithm for gas turbine outages</strong>, delivering $30M in benefits.</li>
+                    <li>Built Spring Boot REST APIs with exception handling, DTO mapping and persistence using Spring Data JPA.</li>
+                    <li>Engineered an Angular–Spring Boot application with AWS monitoring, using Java concurrency to improve performance by 20% while staying scalable and reliable.</li>
+                    <li>Reached 85% code coverage through unit testing, significantly reducing failure rates.</li>
+                  </ul>
+                  <ul class="chips" aria-label="Technologies"><li>Angular</li><li>Spring Boot</li><li>Spring Data JPA</li><li>AWS</li><li>Java Concurrency</li></ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ TECH STACK ============ -->
+      <section id="stack" class="section" aria-labelledby="stack-title">
+        <h2 id="stack-title" class="display-2 reveal"><span>Tech</span><span class="dim">Stack</span></h2>
+        <p class="section-intro reveal">The tools I reach for to take a feature from API contract to production.</p>
+
+        <div class="filters reveal" role="group" aria-label="Filter tools by category">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="backend" aria-pressed="false">Backend</button>
+          <button class="filter" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+          <button class="filter" type="button" data-filter="cloud" aria-pressed="false">Cloud &amp; DevOps</button>
+          <button class="filter" type="button" data-filter="data" aria-pressed="false">Data &amp; Messaging</button>
+          <button class="filter" type="button" data-filter="quality" aria-pressed="false">Quality &amp; Security</button>
+        </div>
+        <p class="filter-count" id="filter-count" aria-live="polite">Showing all 27 tools</p>
+
+        <ul class="tools reveal">
+          <li class="tool" data-cat="backend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Jv</b></span><span><span class="tool-name">Java</span><span class="tool-kind">Language · 8+</span></span></li>
+          <li class="tool" data-cat="backend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>SB</b></span><span><span class="tool-name">Spring Boot</span><span class="tool-kind">Spring MVC · Microservices</span></span></li>
+          <li class="tool" data-cat="backend data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Hb</b></span><span><span class="tool-name">JPA / Hibernate</span><span class="tool-kind">ORM · JDBC</span></span></li>
+          <li class="tool" data-cat="backend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Mv</b></span><span><span class="tool-name">Maven</span><span class="tool-kind">Build tool</span></span></li>
+          <li class="tool" data-cat="backend quality"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>OA</b></span><span><span class="tool-name">OAuth 2.0 · JWT</span><span class="tool-kind">Spring Security</span></span></li>
+          <li class="tool" data-cat="frontend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Ng</b></span><span><span class="tool-name">Angular</span><span class="tool-kind">SPA · PWA</span></span></li>
+          <li class="tool" data-cat="frontend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>JS</b></span><span><span class="tool-name">JavaScript</span><span class="tool-kind">Language</span></span></li>
+          <li class="tool" data-cat="frontend"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/thymeleaf/thymeleaf-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Th</b></span><span><span class="tool-name">Thymeleaf</span><span class="tool-kind">Server-side views</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>AWS</b></span><span><span class="tool-name">AWS</span><span class="tool-kind">ECS · EC2 · Lambda · S3 · RDS</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon no-icon"><b>AI</b></span><span><span class="tool-name">Amazon Bedrock</span><span class="tool-kind">GenAI · LLM integration</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Dk</b></span><span><span class="tool-name">Docker</span><span class="tool-kind">Containers</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Jk</b></span><span><span class="tool-name">Jenkins</span><span class="tool-kind">CI/CD</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>GA</b></span><span><span class="tool-name">GitHub Actions</span><span class="tool-kind">CI/CD</span></span></li>
+          <li class="tool" data-cat="cloud"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Git</b></span><span><span class="tool-name">Git</span><span class="tool-kind">Version control</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Pg</b></span><span><span class="tool-name">PostgreSQL</span><span class="tool-kind">Relational database</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>My</b></span><span><span class="tool-name">MySQL</span><span class="tool-kind">Relational database</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Or</b></span><span><span class="tool-name">Oracle</span><span class="tool-kind">Relational database</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/couchdb/couchdb-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Cd</b></span><span><span class="tool-name">CouchDB</span><span class="tool-kind">NoSQL</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dynamodb/dynamodb-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>DD</b></span><span><span class="tool-name">DynamoDB</span><span class="tool-kind">NoSQL</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Kf</b></span><span><span class="tool-name">Apache Kafka</span><span class="tool-kind">Event streaming</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>RM</b></span><span><span class="tool-name">RabbitMQ</span><span class="tool-kind">Messaging</span></span></li>
+          <li class="tool" data-cat="data"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Es</b></span><span><span class="tool-name">Elasticsearch</span><span class="tool-kind">Search · logging</span></span></li>
+          <li class="tool" data-cat="quality"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>JU</b></span><span><span class="tool-name">JUnit 5</span><span class="tool-kind">Unit testing · TDD</span></span></li>
+          <li class="tool" data-cat="quality"><span class="tool-icon no-icon"><b>Mo</b></span><span><span class="tool-name">Mockito</span><span class="tool-kind">Mocking</span></span></li>
+          <li class="tool" data-cat="quality"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>SQ</b></span><span><span class="tool-name">SonarQube</span><span class="tool-kind">Code quality · SAST/DAST</span></span></li>
+          <li class="tool" data-cat="quality"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Pm</b></span><span><span class="tool-name">Postman</span><span class="tool-kind">API testing</span></span></li>
+          <li class="tool" data-cat="quality"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-icon')"><b>Sw</b></span><span><span class="tool-name">Swagger</span><span class="tool-kind">API documentation</span></span></li>
+        </ul>
+      </section>
+
+      <!-- ============ ACHIEVEMENTS ============ -->
+      <section id="achievements" class="section" aria-labelledby="achievements-title">
+        <h2 id="achievements-title" class="display-2 reveal"><span>Wins &amp;</span><span class="dim">Recognition</span></h2>
+
+        <div class="wins">
+          <article class="win feature reveal">
+            <div class="win-rank" aria-hidden="true">1<sup>st</sup></div>
+            <div>
+              <p class="win-year">2025 · GenAI Hackathon</p>
+              <h3>First place — Fueling Future Challenge</h3>
+              <p>Won the Baker Hughes × Capgemini generative-AI hackathon.</p>
+            </div>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-cap"/></svg></span>
+            <p class="win-year">2019 — 2023</p>
+            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+            <p>Vellore Institute of Technology, Tamil Nadu · CGPA 8.64 / 10</p>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-award"/></svg></span>
+            <p class="win-year">2019</p>
+            <h3>COMPEX Scholarship</h3>
+            <p>Awarded by the Indian Embassy to study B.Tech CSE at VIT Vellore.</p>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-award"/></svg></span>
+            <p class="win-year">2021</p>
+            <h3>Merit Scholarship</h3>
+            <p>For outstanding academic performance at VIT Vellore.</p>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-award"/></svg></span>
+            <p class="win-year">2024</p>
+            <h3>Registered Engineer</h3>
+            <p>Computer Engineering, Nepal Engineering Council.</p>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-code"/></svg></span>
+            <p class="win-year">Dec 2023 · Udemy</p>
+            <h3>Java &amp; Spring Boot</h3>
+            <a class="win-link" href="https://www.udemy.com/certificate/UC-432cb42b-ab6d-4c94-9e33-00fc81278789/" target="_blank" rel="noopener">View certificate <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="win reveal">
+            <span class="win-icon"><svg class="icon"><use href="#i-code"/></svg></span>
+            <p class="win-year">Dec 2023 · OutSystems</p>
+            <h3>Associate Reactive Developer</h3>
+            <a class="win-link" href="https://drive.google.com/file/d/11W1TcfT7m704k16glHH08hNNcO64w7BB/view?usp=sharing" target="_blank" rel="noopener">View certificate <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+
+        <div class="beyond reveal">
+          <h3 class="beyond-title"><svg class="icon"><use href="#i-heart"/></svg> Beyond the code</h3>
+          <ul>
+            <li><strong>Volunteer</strong><span>Karunashraya, a cancer hospice in Bangalore</span></li>
+            <li><strong>Program Facilitator</strong><span>PAHUNCH Project, Child Sensitive Social Protection · Save the Children</span></li>
+            <li><strong>Enumerator</strong><span>National Population &amp; Housing Census 2021, Nepal</span></li>
+            <li><strong>Volunteer</strong><span>Janakpur Youth Network, Nepal</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="display-2 reveal"><span>Let's Work</span><span class="dim">Together</span></h2>
+        <p class="section-intro reveal">Have a role, a project or an idea? Send a note and I'll get back to you.</p>
+
+        <div class="contact-links reveal">
+          <div class="contact-link">
+            <a href="mailto:shibanipurbey@gmail.com"><svg class="icon"><use href="#i-mail"/></svg> shibanipurbey@gmail.com</a>
+            <button class="icon-btn" type="button" data-copy="shibanipurbey@gmail.com" aria-label="Copy email address"><svg class="icon"><use href="#i-copy"/></svg></button>
+          </div>
+          <a class="contact-link" href="https://www.linkedin.com/in/shibani-purbey/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin"/></svg> LinkedIn</a>
+          <a class="contact-link" href="https://github.com/Shibani58" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> GitHub</a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-topic">I'd like to talk about</label>
+            <select id="f-topic" name="topic">
+              <option>A full-time opportunity</option>
+              <option>A contract or freelance project</option>
+              <option>A collaboration</option>
+              <option>Just saying hello</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="5" placeholder="Tell me a little about it…" required></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg" type="submit"><svg class="icon"><use href="#i-send"/></svg> Send message</button>
+          <p class="form-note">Opens your email app with the message ready to send.</p>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p>© <span data-year>2026</span> Shibani Purbey · Full Stack Software Developer</p>
+        <a href="#home" class="to-top"><svg class="icon"><use href="#i-up"/></svg> Back to top</a>
+      </footer>
+    </main>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
