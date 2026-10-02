@@ -208,45 +208,42 @@
             </div>
           </article>
 
-          <!-- E-commerce -->
+          <!-- E-commerce: ShopNest -->
           <article class="project reveal" data-spotlight>
             <div class="project-visual">
-              <div class="pv-bar"><span>e-commerce · microservices</span><span>fig. 02</span></div>
+              <div class="pv-bar"><span>e-commerce · angular + spring boot</span><span>fig. 02</span></div>
               <div class="pv-canvas">
-              <svg viewBox="0 4 300 162" role="img" aria-label="Architecture: API Gateway with Auth Server and Eureka routes to Product, Order and Inventory services; Order and Inventory publish to a Kafka event bus that feeds the Notification service.">
-                <path class="d-edge" d="M84 26H104"/>
-                <path class="d-edge" d="M196 26H216"/>
-                <path class="d-edge" d="M150 42V58M40 58H181M40 58V76M110 58V76M181 58V76"/>
-                <path class="d-edge lime" d="M110 108V132"/>
-                <path class="d-edge lime" d="M181 108V132"/>
-                <path class="d-edge lime" d="M258 132V108"/>
-                <g class="d-node"><rect x="6" y="10" width="78" height="32" rx="9"/><text x="45" y="26">Auth Server</text></g>
-                <g class="d-node hl"><rect x="104" y="10" width="92" height="32" rx="9"/><text x="150" y="26">API Gateway</text></g>
-                <g class="d-node"><rect x="216" y="10" width="78" height="32" rx="9"/><text x="255" y="26">Eureka</text></g>
-                <g class="d-node"><rect x="6" y="76" width="68" height="32" rx="9"/><text x="40" y="92">Product</text></g>
-                <g class="d-node"><rect x="80" y="76" width="60" height="32" rx="9"/><text x="110" y="92">Order</text></g>
-                <g class="d-node"><rect x="146" y="76" width="70" height="32" rx="9"/><text x="181" y="92">Inventory</text></g>
-                <g class="d-node"><rect x="222" y="76" width="72" height="32" rx="9"/><text x="258" y="92">Notification</text></g>
-                <g class="d-node lime"><rect x="6" y="132" width="288" height="28" rx="9"/><text x="150" y="146">Kafka · event bus</text></g>
+              <svg viewBox="0 4 300 162" role="img" aria-label="Architecture: the Angular single-page app calls the API through a Vercel proxy; a Spring Boot API secured with JWT serves catalogue, cart and wishlist, orders and admin features, all persisted in PostgreSQL through JPA.">
+                <path class="d-edge" d="M92 26H107"/>
+                <path class="d-edge" d="M193 26H208"/>
+                <path class="d-edge hot" d="M251 42V58M40 58H263M40 58V76M120 58V76M196 58V76M263 58V76"/>
+                <path class="d-edge lime" d="M40 108V132M120 108V132M196 108V132M263 108V132"/>
+                <g class="d-node"><rect x="6" y="10" width="86" height="32" rx="9"/><text x="49" y="26">Angular SPA</text></g>
+                <g class="d-node"><rect x="107" y="10" width="86" height="32" rx="9"/><text x="150" y="26">Vercel proxy</text></g>
+                <g class="d-node hl"><rect x="208" y="10" width="86" height="32" rx="9"/><text x="251" y="26">JWT · Security</text></g>
+                <g class="d-node"><rect x="6" y="76" width="68" height="32" rx="9"/><text x="40" y="92">Catalogue</text></g>
+                <g class="d-node"><rect x="80" y="76" width="80" height="32" rx="9"/><text x="120" y="92">Cart · Wishlist</text></g>
+                <g class="d-node"><rect x="166" y="76" width="60" height="32" rx="9"/><text x="196" y="92">Orders</text></g>
+                <g class="d-node"><rect x="232" y="76" width="62" height="32" rx="9"/><text x="263" y="92">Admin</text></g>
+                <g class="d-node lime"><rect x="6" y="132" width="288" height="28" rx="9"/><text x="150" y="146">PostgreSQL · Spring Data JPA</text></g>
               </svg>
               </div>
-              <div class="pv-bar pv-foot"><span>MySQL · Elasticsearch · Zipkin · Config Server</span></div>
+              <div class="pv-bar pv-foot"><span>Docker · Render · Vercel · GitHub Actions</span></div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span class="tag">Microservices</span></div>
-              <h3>E-commerce Application</h3>
-              <p class="project-sub">Microservices online shopping platform</p>
+              <div class="project-meta"><span class="tag">Full Stack</span></div>
+              <h3>ShopNest E-commerce Platform</h3>
+              <p class="project-sub">Online store built with Angular and Spring Boot</p>
               <ul class="points">
-                <li>Online shopping platform with integrated product, order, notification and inventory services.</li>
-                <li>Synchronous and asynchronous communication, distributed tracing, centralised logging and an authorization server.</li>
+                <li>Shoppers search and filter products, manage a cart and wishlist, check out with cash on delivery or a simulated card gateway, track or cancel orders and leave verified-purchase reviews.</li>
+                <li>Spring Boot REST API with JWT role-based security, row locking at checkout to prevent overselling and an admin dashboard for products, categories and order status. Integration-tested with MockMvc and deployed with Docker and GitHub Actions CI.</li>
               </ul>
               <ul class="chips" aria-label="Technologies">
-                <li>Spring Boot</li><li>Auth Server</li><li>MySQL</li><li>Eureka</li><li>Config Server</li><li>Zipkin</li><li>Kafka</li><li>Elasticsearch</li>
+                <li>Angular 21</li><li>Spring Boot 3</li><li>Java 21</li><li>Spring Security · JWT</li><li>PostgreSQL</li><li>Docker</li><li>GitHub Actions</li>
               </ul>
               <div class="project-links">
-                <!-- TODO: replace with the real live URL -->
-                <a class="btn btn-primary" href="https://shibani58.github.io/E-Commerce-Application/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
-                <a class="btn btn-ghost" href="https://github.com/Shibani58/E-Commerce-Application" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> Source</a>
+                <a class="btn btn-primary" href="https://shopnest-ecommerce-bice.vercel.app/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+                <a class="btn btn-ghost" href="https://github.com/Shibani58/shopnest-ecommerce" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> Source</a>
               </div>
             </div>
           </article>
