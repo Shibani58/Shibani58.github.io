@@ -44,6 +44,9 @@
       <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
       <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2M14 2v2M6 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/></symbol>
       <symbol id="i-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-clipboard" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4M12 16h4M8 11h.01M8 16h.01"/></symbol>
+      <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></symbol>
     </defs>
   </svg>
 
@@ -54,6 +57,7 @@
     <a href="#experience" data-label="Experience" aria-label="Experience"><svg class="icon"><use href="#i-briefcase"/></svg></a>
     <a href="#stack" data-label="Tech stack" aria-label="Tech stack"><svg class="icon"><use href="#i-code"/></svg></a>
     <a href="#achievements" data-label="Achievements" aria-label="Achievements"><svg class="icon"><use href="#i-trophy"/></svg></a>
+    <a href="#volunteering" data-label="Volunteering" aria-label="Volunteering"><svg class="icon"><use href="#i-heart"/></svg></a>
     <a href="#contact" data-label="Contact" aria-label="Contact"><svg class="icon"><use href="#i-mail"/></svg></a>
   </nav>
 
@@ -108,8 +112,8 @@
 
         <dl class="stats reveal">
           <div class="stat"><dt>Years of experience</dt><dd><span data-count="4">4</span></dd></div>
-          <div class="stat"><dt>Delivered in benefits</dt><dd><span data-count="30" data-prefix="$" data-suffix="M">$30M</span></dd></div>
-          <div class="stat"><dt>Field engineers served</dt><dd><span data-count="8" data-suffix="K">8K</span></dd></div>
+          <div class="stat"><dt>Reliability improvement</dt><dd><span data-count="80" data-suffix="%">80%</span></dd></div>
+          <div class="stat"><dt>Unit test coverage</dt><dd><span data-count="85" data-suffix="%">85%</span></dd></div>
           <div class="stat"><dt>Production go-lives led</dt><dd><span data-count="3">3</span></dd></div>
         </dl>
 
@@ -162,7 +166,7 @@
       <!-- ============ PROJECTS ============ -->
       <section id="projects" class="section" aria-labelledby="projects-title">
         <h2 id="projects-title" class="display-2 reveal"><span>Featured</span><span class="dim">Projects</span></h2>
-        <p class="section-intro reveal">From serverless GenAI to event-driven microservices, with a quick look at how each one fits together.</p>
+        <p class="section-intro reveal">From serverless GenAI and event-driven microservices to machine learning, with a quick look at how each one fits together.</p>
 
         <div class="projects">
           <!-- Athena Onboard -->
@@ -286,6 +290,54 @@
               </div>
             </div>
           </article>
+          <!-- MSP early warning -->
+          <article class="project reveal" data-spotlight>
+            <div class="project-visual">
+              <div class="pv-bar"><span>msp-early-warning · xgboost</span><span>fig. 04</span></div>
+              <div class="pv-canvas">
+              <svg viewBox="0 10 300 206" role="img" aria-label="Pipeline: AGMARKNET price records and MSP rates feed feature engineering; logistic regression, XGBoost and SARIMA models are calibrated with Platt scaling to give breach risk at 1, 2 and 4 weeks, explained with SHAP.">
+                <path class="d-edge" d="M90 34H106"/>
+                <path class="d-edge" d="M210 34H194"/>
+                <path class="d-edge" d="M150 50V66M50 66H250M50 66V82M150 66V82M250 66V82"/>
+                <path class="d-edge lime" d="M50 112V136"/>
+                <path class="d-edge lime" d="M150 112V136"/>
+                <path class="d-edge lime" d="M250 112V136"/>
+                <path class="d-edge hot" d="M91 162V180"/>
+                <path class="d-edge" d="M243 162V180"/>
+                <g class="d-node"><rect x="6" y="18" width="84" height="32" rx="9"/><text x="48" y="34">AGMARKNET</text></g>
+                <g class="d-node"><rect x="106" y="18" width="88" height="32" rx="9"/><text x="150" y="34">Features</text></g>
+                <g class="d-node"><rect x="210" y="18" width="84" height="32" rx="9"/><text x="252" y="34">MSP rates</text></g>
+                <g class="d-node"><rect x="6" y="82" width="88" height="30" rx="9"/><text x="50" y="97">LogReg</text></g>
+                <g class="d-node hl"><rect x="106" y="82" width="88" height="30" rx="9"/><text x="150" y="97">XGBoost</text></g>
+                <g class="d-node"><rect x="206" y="82" width="88" height="30" rx="9"/><text x="250" y="97">SARIMA</text></g>
+                <g class="d-node lime"><rect x="6" y="136" width="288" height="26" rx="9"/><text x="150" y="149">Platt calibration</text></g>
+                <g class="d-node hl"><rect x="6" y="180" width="170" height="30" rx="9"/><text x="91" y="195">Breach risk · 1/2/4 wk</text></g>
+                <g class="d-node"><rect x="192" y="180" width="102" height="30" rx="9"/><text x="243" y="195">SHAP</text></g>
+              </svg>
+              </div>
+              <div class="pv-bar pv-foot"><span>4.7M+ AGMARKNET records · 3 horizons</span></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="tag">Machine Learning</span></div>
+              <h3>Multi-Horizon MSP Early Warning System</h3>
+              <p class="project-sub">Predicting when mandi crop prices will fall below MSP in India</p>
+              <ul class="metrics" aria-label="Highlights">
+                <li><strong>4.7M+</strong> records</li>
+                <li><strong>1 · 2 · 4-week</strong> horizons</li>
+              </ul>
+              <ul class="points">
+                <li>End-to-end machine learning pipeline on <strong>4.7M+ AGMARKNET records</strong> that predicts whether mandi prices will fall below the applicable Minimum Support Price within 1, 2 or 4 weeks.</li>
+                <li>Feature engineering on price/MSP margins, lagged prices, rolling volatility, seasonality and arrivals, with <strong>SHAP</strong> interpretation and <strong>Platt calibration</strong> to surface the key signals behind future MSP-breach risk.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>XGBoost</li><li>Logistic Regression</li><li>SARIMA</li><li>SHAP</li><li>Platt Calibration</li><li>Matplotlib</li>
+              </ul>
+              <div class="project-links">
+                <!-- TODO: replace with the real live URL -->
+                <a class="btn btn-primary" href="https://shibani58.github.io/msp-early-warning/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </article>
         </div>
 
         <a class="more-link reveal" href="https://github.com/Shibani58?tab=repositories" target="_blank" rel="noopener">
@@ -302,7 +354,7 @@
           <article class="job open reveal">
             <h3 class="job-h">
               <button class="job-head" type="button" aria-expanded="true" aria-controls="job-cat">
-                <span class="job-logo current">CAT</span>
+                <span class="job-logo has-logo full" aria-hidden="true"><img src="assets/logos/caterpillar.png" alt="" width="144" height="144"></span>
                 <span class="job-title">
                   <span class="job-co">Caterpillar Inc. <span class="now-tag">Now</span></span>
                   <span class="job-role">Software Engineer II</span>
@@ -332,7 +384,7 @@
           <article class="job reveal">
             <h3 class="job-h">
               <button class="job-head" type="button" aria-expanded="false" aria-controls="job-bh">
-                <span class="job-logo">BH</span>
+                <span class="job-logo has-logo" aria-hidden="true"><img src="assets/logos/baker-hughes.png" alt="" width="144" height="144"></span>
                 <span class="job-title">
                   <span class="job-co">Baker Hughes</span>
                   <span class="job-role">Software Engineer · Technical Lead</span>
@@ -366,7 +418,7 @@
           <article class="job reveal">
             <h3 class="job-h">
               <button class="job-head" type="button" aria-expanded="false" aria-controls="job-ge">
-                <span class="job-logo">GE</span>
+                <span class="job-logo has-logo" aria-hidden="true"><img src="assets/logos/ge-vernova.png" alt="" width="144" height="144"></span>
                 <span class="job-title">
                   <span class="job-co">General Electric — GE Vernova</span>
                   <span class="job-role">Software Engineering Specialist</span>
@@ -499,15 +551,41 @@
             <a class="win-link" href="https://drive.google.com/file/d/11W1TcfT7m704k16glHH08hNNcO64w7BB/view?usp=sharing" target="_blank" rel="noopener">View certificate <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
           </article>
         </div>
+      </section>
 
-        <div class="beyond reveal">
-          <h3 class="beyond-title"><svg class="icon"><use href="#i-heart"/></svg> Beyond the code</h3>
-          <ul>
-            <li><strong>Volunteer</strong><span>Karunashraya, a cancer hospice in Bangalore</span></li>
-            <li><strong>Program Facilitator</strong><span>PAHUNCH Project, Child Sensitive Social Protection · Save the Children</span></li>
-            <li><strong>Enumerator</strong><span>National Population &amp; Housing Census 2021, Nepal</span></li>
-            <li><strong>Volunteer</strong><span>Janakpur Youth Network, Nepal</span></li>
-          </ul>
+      <!-- ============ VOLUNTEERING ============ -->
+      <section id="volunteering" class="section" aria-labelledby="volunteering-title">
+        <h2 id="volunteering-title" class="display-2 reveal"><span>Giving</span><span class="dim">Back</span></h2>
+        <p class="section-intro reveal">Outside work, I give my time to communities in Bangalore and across Nepal.</p>
+
+        <div class="vol-grid">
+          <article class="vol-card reveal">
+            <span class="vol-icon"><svg class="icon"><use href="#i-heart"/></svg></span>
+            <p class="vol-role">Volunteer</p>
+            <h3>Karunashraya</h3>
+            <p class="vol-desc">A cancer hospice dedicated to providing compassionate care.</p>
+            <p class="vol-place"><svg class="icon"><use href="#i-pin"/></svg> Bangalore, India</p>
+          </article>
+          <article class="vol-card reveal">
+            <span class="vol-icon"><svg class="icon"><use href="#i-users"/></svg></span>
+            <p class="vol-role">Program Facilitator</p>
+            <h3>PAHUNCH Project</h3>
+            <p class="vol-desc">Child Sensitive Social Protection (CSSP) programme by Save the Children.</p>
+          </article>
+          <article class="vol-card reveal">
+            <span class="vol-icon"><svg class="icon"><use href="#i-clipboard"/></svg></span>
+            <p class="vol-role">Enumerator</p>
+            <h3>National Population &amp; Housing Census 2021</h3>
+            <p class="vol-desc">Collected household data for the national census.</p>
+            <p class="vol-place"><svg class="icon"><use href="#i-pin"/></svg> Nepal</p>
+          </article>
+          <article class="vol-card reveal">
+            <span class="vol-icon"><svg class="icon"><use href="#i-sprout"/></svg></span>
+            <p class="vol-role">Volunteer</p>
+            <h3>Janakpur Youth Network</h3>
+            <p class="vol-desc">Youth-led community network in Janakpur.</p>
+            <p class="vol-place"><svg class="icon"><use href="#i-pin"/></svg> Janakpur, Nepal</p>
+          </article>
         </div>
       </section>
 

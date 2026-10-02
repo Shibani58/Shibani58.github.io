@@ -87,13 +87,12 @@
       testing: ['JUnit 5', 'Mockito', 'SonarQube'],
     },
     impact: {
-      dailySalesOnPlatform: '$15M+',
-      outageSchedulingBenefit: '$30M',
-      fieldEngineersServed: 8000,
-      productionGoLives: 3,
       reliabilityGain: '80%',
-      criticalSecurityFixes: '100+',
       codeCoverage: '85%',
+      criticalSecurityFixes: '100+',
+      performanceGain: '20%',
+      productionGoLives: 3,
+      dailySalesOnPlatform: '$15M+',
     },
   };
 

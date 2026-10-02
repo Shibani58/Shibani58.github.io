@@ -1021,31 +1021,6 @@ main {
 }
 .win-rank sup { font-size: 0.32em; vertical-align: top; position: relative; top: 0.25em; margin-left: 2px; letter-spacing: 0; }
 
-.beyond {
-  margin-top: 12px;
-  padding: 24px;
-  border-radius: var(--radius-lg);
-  border: 1px dashed var(--border-strong);
-}
-.beyond-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 16px;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 18px;
-}
-.beyond-title .icon { color: var(--orange); }
-.beyond ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.beyond li {
-  display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 16px;
-  font-size: 15px;
-}
-.beyond li span { color: var(--muted); }
-
 /* ---------- Contact ---------- */
 .contact-links {
   margin-top: 32px;
@@ -1210,7 +1185,6 @@ div.contact-link { padding-right: 6px; }
   .win.feature { flex-direction: column; align-items: flex-start; gap: 12px; padding: 24px; }
   .win-rank { font-size: 72px; }
   .form-row { grid-template-columns: minmax(0, 1fr); }
-  .beyond li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .job-head { grid-template-columns: 44px minmax(0, 1fr) 24px; gap: 14px; padding: 18px 16px; }
   .job-logo { width: 44px; height: 44px; font-size: 12.5px; border-radius: 12px; }
   .job-date { grid-column: 2; grid-row: 2; margin-top: -6px; font-size: 12px; }
@@ -1258,4 +1232,67 @@ div.contact-link { padding-right: 6px; }
   }
   .js .reveal { transform: none; }
   .marquee-track { animation: none; }
+}
+
+/* ---------- Company logos (experience) ---------- */
+.job-logo.has-logo { background: #fff; padding: 7px; overflow: hidden; }
+.job-logo.has-logo.full { padding: 0; background: #000; }
+.job-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+/* ---------- Volunteering ---------- */
+.vol-grid {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.vol-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s, opacity 0.8s var(--ease), transform 0.8s var(--ease);
+}
+.vol-card:hover { border-color: var(--border-strong); }
+.vol-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: var(--lime-soft);
+  color: var(--lime);
+}
+.vol-role {
+  color: var(--orange-text);
+  font: 600 12px var(--font-body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.vol-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.vol-desc { color: var(--muted); font-size: 15px; }
+.vol-place {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 10px;
+  color: var(--dim);
+  font: 400 12.5px var(--font-mono);
+}
+.vol-place .icon { width: 14px; height: 14px; }
+
+@container (max-width: 560px) {
+  .vol-grid { grid-template-columns: minmax(0, 1fr); }
+  .job-logo.has-logo { padding: 6px; }
 }
