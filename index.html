@@ -335,6 +335,50 @@
               </div>
             </div>
           </article>
+          <!-- MalCare -->
+          <article class="project reveal" data-spotlight>
+            <div class="project-visual">
+              <div class="pv-bar"><span>malcare · tensorflow.js</span><span>fig. 05</span></div>
+              <div class="pv-canvas">
+              <svg viewBox="0 10 300 206" role="img" aria-label="Pipeline: a blood-smear cell image or a chest X-ray is pre-processed to 224 by 224 pixels, passed through a MobileNet feature extractor and a dense softmax head, and returns a malaria or tuberculosis result with a confidence score, all running in the browser with TensorFlow.js.">
+                <path class="d-edge" d="M90 34H106"/>
+                <path class="d-edge" d="M210 34H194"/>
+                <path class="d-edge hot" d="M150 50V82"/>
+                <path class="d-edge lime" d="M150 112V136"/>
+                <path class="d-edge hot" d="M91 162V180"/>
+                <path class="d-edge" d="M243 162V180"/>
+                <g class="d-node"><rect x="6" y="18" width="84" height="32" rx="9"/><text x="48" y="34">Blood smear</text></g>
+                <g class="d-node"><rect x="106" y="18" width="88" height="32" rx="9"/><text x="150" y="34">Preprocess</text></g>
+                <g class="d-node"><rect x="210" y="18" width="84" height="32" rx="9"/><text x="252" y="34">Chest X-ray</text></g>
+                <g class="d-node hl"><rect x="96" y="82" width="108" height="30" rx="9"/><text x="150" y="97">MobileNet</text></g>
+                <g class="d-node lime"><rect x="6" y="136" width="288" height="26" rx="9"/><text x="150" y="149">Dense 100 · softmax (2 classes)</text></g>
+                <g class="d-node hl"><rect x="6" y="180" width="170" height="30" rx="9"/><text x="91" y="195">Malaria / TB · confidence</text></g>
+                <g class="d-node"><rect x="192" y="180" width="102" height="30" rx="9"/><text x="243" y="195">TF.js</text></g>
+              </svg>
+              </div>
+              <div class="pv-bar pv-foot"><span>runs in the browser · no data uploaded</span></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="tag">Machine Learning · Health</span></div>
+              <h3>MalCare</h3>
+              <p class="project-sub">AI-assisted malaria and tuberculosis screening</p>
+              <ul class="metrics" aria-label="Highlights">
+                <li><strong>2</strong> image classifiers</li>
+                <li><strong>0</strong> data uploaded</li>
+              </ul>
+              <ul class="points">
+                <li>Transfer-learning <strong>MobileNet</strong> classifiers that screen blood-smear cell images for malaria and chest X-rays for tuberculosis, with confidence scores.</li>
+                <li>Deployed for private, in-browser inference with <strong>TensorFlow.js</strong>, plus a <strong>TF-IDF</strong> question-answering engine (NLTK) and a Flask app for patient records and trends.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>Python</li><li>TensorFlow / Keras</li><li>TensorFlow.js</li><li>Flask</li><li>NLTK</li><li>GitHub Actions</li>
+              </ul>
+              <div class="project-links">
+                <a class="btn btn-primary" href="https://shibani58.github.io/Malcare/" target="_blank" rel="noopener">Live demo <svg class="icon arrow"><use href="#i-arrow"/></svg></a>
+                <a class="btn btn-ghost" href="https://github.com/Shibani58/Malcare" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> Source</a>
+              </div>
+            </div>
+          </article>
         </div>
 
         <a class="more-link reveal" href="https://github.com/Shibani58?tab=repositories" target="_blank" rel="noopener">
